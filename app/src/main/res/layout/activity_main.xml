@@ -28,20 +28,12 @@
                 android:src="@drawable/ic_launcher_background"
                 app:layout_collapseMode="parallax" />
 
-            <TextView
-                android:id="@+id/hello_tv"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="?attr/contentInsetStartWithNavigation"
-                android:text="Hello"
-                android:textAppearance="@style/TextAppearance.MaterialComponents.Headline4"
-                app:layout_collapseMode="parallax"/>
-
             <androidx.appcompat.widget.Toolbar
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
                 app:navigationIcon="@drawable/ic_launcher_foreground"
+                app:title=""
                 app:layout_collapseMode="pin"
                 app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
 

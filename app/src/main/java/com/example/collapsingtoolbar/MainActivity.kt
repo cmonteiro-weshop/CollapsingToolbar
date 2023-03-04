@@ -21,7 +21,8 @@ class MainActivity : AppCompatActivity() {
 
         setSupportActionBar(binding.toolbar)
         binding.toolbar.setNavigationOnClickListener {
-            Toast.makeText(applicationContext,"Navigation icon was clicked", Toast.LENGTH_SHORT).show()
+            val intent = Intent(this, MainActivity2::class.java)
+            startActivity(intent)
         }
     }
 
@@ -34,7 +35,7 @@ class MainActivity : AppCompatActivity() {
         when (item.itemId) {
         R.id.action_item -> {
 //            val intent = Intent(this, ScrollingActivity::class.java)
-            val intent = Intent(this, CollapsingToolbar::class.java)
+            val intent = Intent(this, MainActivity2::class.java)
             startActivity(intent)
         }
     }
