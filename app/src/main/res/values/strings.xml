@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">CollapsingToolbar</string>
+    <string name="dummy_text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec posuere rhoncus aliquam. Vivamus luctus velit rhoncus felis rhoncus, a convallis diam sollicitudin. Donec vitae magna varius, congue ante quis, semper dui. Integer lectus sapien, convallis a purus ac, aliquet posuere lacus. Nam sed mauris at sapien convallis venenatis. Nullam at gravida dolor. Fusce scelerisque, ante finibus faucibus dictum, sem erat dignissim mi, vel tincidunt ante nisi ac magna. Pellentesque vestibulum placerat sapien, eu fringilla mi sodales ac. Fusce mi diam, volutpat sit amet faucibus quis, suscipit ut urna. Maecenas lacinia eleifend leo, sit amet mollis diam vestibulum vehicula. Suspendisse ullamcorper, arcu tempus ullamcorper luctus, sapien lectus tempor sem, eget mattis ipsum est in erat. In ut finibus nisi. Aliquam at tincidunt elit. Integer bibendum laoreet diam sed aliquam. Suspendisse gravida malesuada urna, vehicula sodales massa vestibulum non.
+        Donec vitae porta risus. Vestibulum imperdiet erat ut dui tempus eleifend. Vestibulum tempor sagittis odio, laoreet consectetur mi eleifend nec. Ut pellentesque blandit sem. Proin commodo tincidunt risus a rutrum. Etiam eu mi vitae nunc volutpat feugiat. Pellentesque non consequat tellus, vitae blandit neque. Suspendisse potenti. Mauris consectetur viverra dui vel faucibus. Integer in mauris id neque blandit semper.
+        Nulla in sapien neque. In maximus justo vel felis convallis condimentum. Mauris eu urna id massa venenatis sagittis. Nulla convallis magna quis scelerisque aliquet. Quisque vitae lacus quis justo convallis blandit vitae non risus. Integer quis malesuada mauris. Vestibulum vestibulum tortor at dui vehicula lacinia. Nunc tempor lobortis aliquet. Sed lacinia, enim quis auctor bibendum, justo lectus consectetur mi, ut posuere velit sapien sit amet libero. Aenean facilisis nisl et orci fermentum, vel placerat tortor lacinia. Sed congue ante est. Fusce eget magna et erat aliquam congue. Nunc eget neque vitae enim dapibus dictum sed vitae erat. In efficitur, massa rutrum convallis consequat, felis justo sodales augue, et accumsan nibh nulla sed velit. Sed id arcu et nunc mollis ullamcorper.
+        Mauris posuere sem eu nulla blandit, id malesuada velit volutpat. Mauris a vulputate elit. Morbi pharetra tortor quis odio cursus, quis dictum odio sagittis. Vestibulum viverra tempus nibh vel luctus. Sed metus ex, dapibus vulputate tellus vel, aliquet efficitur justo. Curabitur scelerisque urna vitae dignissim ornare. Donec congue dolor et magna ultricies, porta laoreet turpis imperdiet. Suspendisse eu dolor sollicitudin, convallis lorem vel, rhoncus libero. Sed a vestibulum ex. Curabitur vestibulum ipsum purus, nec fermentum ipsum vehicula sed. Mauris quis pellentesque ligula. Sed et turpis ac est tempor bibendum sit amet et tellus. Nunc laoreet egestas arcu ut rhoncus. Fusce et congue sem.
+        Quisque lobortis mollis venenatis. Quisque eu pulvinar nulla. Morbi urna libero, elementum ac viverra a, finibus id libero. Mauris ut sapien tempor, tincidunt urna eget, varius elit. Pellentesque non aliquet mauris. Mauris non velit interdum quam mattis venenatis vel at sem. Nam sit amet suscipit ipsum, et egestas erat. Quisque a congue sem. Duis imperdiet massa vitae ornare efficitur. Sed tincidunt mattis mi non sodales. Vestibulum eu risus lacinia, laoreet ante in, molestie est. Fusce congue, erat sit amet congue molestie, erat ligula fermentum velit, ac bibendum lacus mauris sit amet metus. Donec lobortis consequat ultrices. Vestibulum mi nibh, vehicula vel ex eu, mollis porttitor mauris. Aenean in iaculis justo, eget ultricies elit. Nunc sit amet scelerisque ligula.
+        In facilisis porttitor odio a volutpat. Maecenas malesuada sapien feugiat elit commodo egestas. Nam quis congue nulla. Quisque augue libero, bibendum id ex nec, ornare tincidunt purus. Curabitur varius lorem vel ante viverra, in pulvinar ante rutrum. Mauris nec hendrerit sapien. Duis a pretium justo, vel feugiat risus.
+        Vivamus consequat vulputate nunc nec cursus. Curabitur eget gravida enim, nec efficitur leo. Suspendisse potenti. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut eget est vitae purus volutpat ultricies. Vestibulum vel vulputate felis, id tempus dolor. Nunc sit amet lorem magna. In rhoncus augue at nulla vestibulum, eu malesuada purus interdum.
+        Nulla et ipsum dapibus, bibendum purus vitae, vulputate arcu. Aenean cursus ut nisi pharetra placerat. Mauris ultrices sodales ante. Donec aliquet finibus neque. Nulla eget vulputate nulla. Aliquam congue est enim, in accumsan libero aliquam ac. Sed vestibulum, ipsum vitae feugiat consectetur, ex neque scelerisque eros, id facilisis lacus felis id tellus. Pellentesque dignissim, ex et faucibus porttitor, nibh arcu porttitor est, non consequat diam felis vel dui. Curabitur libero ante, rhoncus quis pulvinar nec, commodo sit amet tortor. Integer maximus turpis finibus quam eleifend eleifend. Fusce quis odio pellentesque, lacinia urna quis, consectetur sem.
+        Nulla auctor, augue at pretium pharetra, risus dui porttitor urna, eu hendrerit libero dolor a quam. Curabitur tempus euismod enim rutrum tincidunt. Nunc mollis consequat leo, vel interdum ligula laoreet nec. Vivamus orci lorem, maximus ac blandit vel, bibendum pulvinar velit. Vestibulum id tortor eget ex luctus interdum mattis a elit. Nulla nunc nunc, gravida luctus diam sed, ultrices consequat elit. Donec vel placerat augue. Pellentesque vel purus tincidunt, feugiat lorem sed, mattis tellus. Praesent tortor quam, vulputate ac arcu non, volutpat consectetur urna. Morbi vehicula lorem neque, sit amet dignissim leo lacinia eget.
+        Phasellus a turpis nisl. Pellentesque id rhoncus ex. Donec eleifend commodo dui, a dapibus erat consectetur ac. Proin dapibus feugiat enim ultrices finibus. Pellentesque et mauris tellus. Duis finibus nisl nunc, non pellentesque tortor commodo quis. Morbi dapibus ex in lorem sagittis iaculis vitae sit amet odio. Nunc tempor massa erat, ut hendrerit neque malesuada non. Aenean viverra tristique pretium. Duis eleifend neque vitae leo porta vehicula finibus et ipsum. Pellentesque at magna orci. Sed vitae urna vel sem mollis dignissim ac eu erat. Maecenas vehicula metus gravida mattis pharetra. Duis egestas neque mollis tempor viverra.
+        In pulvinar odio nisi, eget semper leo lacinia vel. Etiam rhoncus est eu nunc posuere bibendum. Donec laoreet diam mi, ac sollicitudin tortor dapibus vitae. Curabitur viverra, augue sollicitudin fringilla volutpat, est sem fermentum mauris, euismod scelerisque enim lorem ac massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus porttitor id sapien at facilisis. Mauris porta ante a sollicitudin eleifend. In hac habitasse platea dictumst. Praesent semper tempor tortor sit amet ornare. Nam eu ligula et diam ultricies tincidunt vel tincidunt nisi. Pellentesque auctor, augue eget ornare convallis, justo dui bibendum massa, eget euismod nibh urna eu justo. Nullam nisl mi, interdum sit amet tempus a, faucibus a elit. Nullam bibendum sem quis odio ornare ultrices.
+    </string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="something">something</string>
+</resources>
