@@ -5,6 +5,7 @@
     <item
         android:id="@+id/action_item"
         android:title="Action"
-        app:showAsAction="never" />
+        android:icon="@drawable/ic_profile"
+        app:showAsAction="ifRoom" />
 
 </menu>
