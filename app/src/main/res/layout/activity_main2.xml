@@ -8,18 +8,26 @@
     tools:context=".MainActivity2">
 
     <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar_layout"
         android:layout_width="match_parent"
         android:layout_height="@dimen/appbar_height"
         android:theme="@style/AppTheme.AppBarOverlay">
 
         <androidx.constraintlayout.motion.widget.MotionLayout
-            android:id="@+id/constraintLayout2"
+            android:id="@+id/motion_layout"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:minHeight="?attr/actionBarSize"
             app:layoutDescription="@xml/activity_main2_scene"
             android:fitsSystemWindows="true"
-            app:layout_scrollFlags="scroll|enterAlways|enterAlwaysCollapsed|snap">
+            app:layout_scrollFlags="scroll|exitUntilCollapsed|snap">
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/gl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_begin="?attr/actionBarSize" />
 
             <ImageView
                 android:id="@+id/profile_image"
@@ -55,24 +63,16 @@
                 app:layout_constraintBottom_toBottomOf="@id/gl"
                 android:src="@drawable/ic_help" />
 
-            <androidx.constraintlayout.widget.Guideline
-                android:id="@+id/gl"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                app:layout_constraintGuide_begin="?attr/actionBarSize" />
-
             <TextView
                 android:id="@+id/shares_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
+                android:text="@string/content_description"
                 android:textColor="@color/white"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/gl"
-                tools:text="Shares text" />
-
+                app:layout_constraintTop_toBottomOf="@+id/gl" />
 
             <TextView
                 android:id="@+id/search_bar"
