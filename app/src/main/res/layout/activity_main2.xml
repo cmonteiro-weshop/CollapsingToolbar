@@ -8,86 +8,88 @@
     tools:context=".MainActivity2">
 
     <com.google.android.material.appbar.AppBarLayout
-        android:layout_width="wrap_content"
-        android:layout_height="160dp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/appbar_height"
         android:theme="@style/AppTheme.AppBarOverlay">
 
-        <com.google.android.material.appbar.CollapsingToolbarLayout
+        <androidx.constraintlayout.motion.widget.MotionLayout
+            android:id="@+id/constraintLayout2"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:minHeight="?attr/actionBarSize"
+            app:layoutDescription="@xml/activity_main2_scene"
             android:fitsSystemWindows="true"
             app:layout_scrollFlags="scroll|enterAlways|enterAlwaysCollapsed|snap">
 
-            <androidx.appcompat.widget.Toolbar
-                android:id="@+id/toolbar"
+            <ImageView
+                android:id="@+id/profile_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:contentDescription="@string/content_description"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="@id/gl"
+                android:src="@drawable/ic_profile" />
+
+            <ImageView
+                android:id="@+id/app_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/content_description"
+                android:scaleType="centerCrop"
+                app:layout_constraintBottom_toTopOf="@id/gl"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_logo_launcher_white" />
+
+            <ImageView
+                android:id="@+id/help_image"
+                android:contentDescription="@string/content_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="@id/gl"
+                android:src="@drawable/ic_help" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/gl"
                 android:layout_width="match_parent"
-                android:layout_height="?attr/actionBarSize"
-                app:navigationIcon="@drawable/ic_profile"
-                app:menu="@menu/example_menu"
-                app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_begin="?attr/actionBarSize" />
 
-            <androidx.constraintlayout.widget.ConstraintLayout
+            <TextView
+                android:id="@+id/shares_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/gl"
+                tools:text="Shares text" />
+
+
+            <TextView
+                android:id="@+id/search_bar"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="42dp"
+                android:layout_margin="16dp"
+                android:background="@color/design_default_color_primary_dark"
+                android:gravity="center_vertical"
+                android:paddingStart="4dp"
+                android:paddingEnd="4dp"
+                app:drawableStartCompat="@android:drawable/ic_menu_search"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/shares_text"
+                tools:text="Search bar" />
 
-                <ImageView
-                    android:id="@+id/profile"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="16dp"
-                    android:contentDescription="@string/content_description"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintBottom_toTopOf="@id/gl"
-                    android:src="@drawable/ic_profile"/>
-
-                <ImageView
-                    android:id="@+id/app_logo"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:contentDescription="@string/content_description"
-                    android:scaleType="centerCrop"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintBottom_toTopOf="@id/gl"
-                    app:srcCompat="@drawable/ic_logo_launcher_white" />
-
-<!--                android:layout_height="?attr/actionBarSize"-->
-
-                <androidx.constraintlayout.widget.Guideline
-                    android:id="@+id/gl"
-                    android:layout_width="match_parent"
-                    android:layout_height="?attr/actionBarSize"
-                    android:orientation="horizontal"
-                    app:layout_constraintGuide_begin="?attr/actionBarSize" />
-
-                <TextView
-                    android:id="@+id/shares_text"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
-                    tools:text="Shares text"
-                    android:textColor="@color/white"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/gl"/>
-
-
-                <TextView
-                    android:background="@color/cardview_dark_background"
-                    android:layout_width="match_parent"
-                    android:layout_height="42dp"
-                    android:layout_margin="16dp"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/shares_text"
-                    tools:text="Search bar"/>
-
-            </androidx.constraintlayout.widget.ConstraintLayout>
-
-        </com.google.android.material.appbar.CollapsingToolbarLayout>
-
+        </androidx.constraintlayout.motion.widget.MotionLayout>
 
     </com.google.android.material.appbar.AppBarLayout>
 
