@@ -42,10 +42,10 @@
 
             <ImageView
                 android:id="@+id/app_logo"
-                android:layout_width="wrap_content"
+                android:layout_width="32dp"
                 android:layout_height="wrap_content"
                 android:contentDescription="@string/content_description"
-                android:scaleType="centerCrop"
+                android:scaleType="fitCenter"
                 app:layout_constraintBottom_toTopOf="@id/gl"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -64,21 +64,52 @@
                 android:src="@drawable/ic_help" />
 
             <TextView
-                android:id="@+id/shares_text"
+                android:id="@+id/greeting"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:text="@string/content_description"
+                android:text="@string/greetings"
                 android:textColor="@color/white"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/gl" />
 
             <TextView
+                android:id="@+id/tmpSharesEarnText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/tmpSharesMargin"
+                app:layout_constraintTop_toBottomOf="@id/greeting"
+                app:layout_constraintHorizontal_chainStyle="packed"
+                android:text="@string/shares"
+                tools:visibility="visible" />
+
+            <TextView
+                android:id="@+id/tmpSharesMargin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginEnd="6dp"
+                android:paddingStart="8dp"
+                android:paddingTop="4dp"
+                android:paddingEnd="8dp"
+                android:paddingBottom="4dp"
+                android:textColor="@color/black"
+                android:background="@color/teal_700"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/tmpSharesEarnText"
+                app:layout_constraintBottom_toBottomOf="@id/tmpSharesEarnText"
+                app:layout_constraintTop_toTopOf="@id/tmpSharesEarnText"
+                android:text="+999.99% (£9,999.99)"
+                tools:visibility="visible" />
+
+            <TextView
                 android:id="@+id/search_bar"
                 android:layout_width="match_parent"
-                android:layout_height="42dp"
-                android:layout_margin="16dp"
+                android:layout_height="36dp"
+                android:layout_marginTop="16dp"
                 android:background="@color/design_default_color_primary_dark"
                 android:gravity="center_vertical"
                 android:paddingStart="4dp"
@@ -86,7 +117,7 @@
                 app:drawableStartCompat="@android:drawable/ic_menu_search"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/shares_text"
+                app:layout_constraintTop_toBottomOf="@id/tmpSharesEarnText"
                 tools:text="Search bar" />
 
         </androidx.constraintlayout.motion.widget.MotionLayout>
